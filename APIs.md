@@ -163,11 +163,11 @@ PUT |  /api/commonservice/commonPublicMsg/updateCommonPublicMsg |
 DELETE |  /api/commonservice/commonPublicMsg/deleteCommonPublicMsg | 
 PUT |  /api/commonservice/commonPublicMsg/updateTagStatus | 
 POST |  /api/commonservice/commonPublicMsg/checkCommonPublicMsg | 
-POST |  /api/commonservice/commonMsgPublish/findCommonMsgPublishList | 
-GET |  /api/commonservice/commonMsgPublish/findCommonMsgPublishById?id= + e | 
-POST |  /api/commonservice/commonMsgPublish/addCommonMsgPublish | 
-PUT |  /api/commonservice/commonMsgPublish/updateCommonMsgPublish | 
-DELETE |  /api/commonservice/commonMsgPublish/deleteCommonMsgPublish | 
+POST |  /api/commonservice/commonMsgPublish/findCommonMsgPublishList | body为空，获取当前广播通知列表
+GET |  /api/commonservice/commonMsgPublish/findCommonMsgPublishById?id= + e | 不如上面那个好用
+POST |  /api/commonservice/commonMsgPublish/addCommonMsgPublish | 发布公告
+PUT |  /api/commonservice/commonMsgPublish/updateCommonMsgPublish | 修改公告，不会记录lastUpdateUser！
+DELETE |  /api/commonservice/commonMsgPublish/deleteCommonMsgPublish | 删除公告
 PUT |  /api/commonservice/commonMsgPublish/updateTagStatus | 
 POST |  /api/commonservice/commonMsgPublish/checkCommonMsgPublish | 
 POST |  /api/userservice/userGroup/findUserGroupList | 
