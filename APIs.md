@@ -1,7 +1,7 @@
 method|url|comment
 -|-|-
 DELETE |  /api/electionservice/electionRound | 
-GET |  /api/electionservice/electionRound/ + e | 
+GET |  /api/electionservice/electionRound/ + e | e即roundId，可以在选课界面随便发一个请求拿到(最后一次:5020).json含有开放状态、开放讫始时间等参数.
 POST |  /api/electionservice/electionRound | 
 PUT |  /api/electionservice/electionRound | 
 POST |  /api/electionservice/electionRound/page | 
